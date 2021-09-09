@@ -288,7 +288,8 @@
 }
 
 .footer__author {
-  position: absolute;
+  display: flex;
+  align-items: flex-end;
   bottom: 18px;
   margin-top: 18px;
 }
@@ -324,6 +325,7 @@
   font-size: 18px;
   font-weight: normal;
   flex-basis: 711px;
+  display: flex;
 }
 
 .logo_place_footer {
